@@ -1,0 +1,27 @@
+{
+    "name": "HAIAMH JsoN Bot",
+    "description": "A telegram JsoN bot",
+    "logo": "https://telegra.ph/file/236794ce4bb2213eaae1e.jpg",
+    "repository": "https://github.com/HAIAMH/JsoN",
+    "keywords": [
+        "json",
+        "harshith",
+        "pyrogram"
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Get it on Telegram by @botfather"
+        },
+        "API_ID": {
+            "description": "How To Get my.telegram.org"
+        },
+        "API_HASH": {
+            "description": "How To Get my.telegram.org"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
